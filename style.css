@@ -1,0 +1,32 @@
+@import url("projeto-css/header.css");
+@import url("projeto-css/banner.css");
+@import url("projeto-css/carrocel.css");
+@import url("projeto-css/card.css");
+@import url("projeto-css/card2.css");
+@import url("projeto-css/topicos.css");
+@import url("projeto-css/contato.css");
+@import url("projeto-css/rodape.css");
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --cor-de-fundo:#e3e2e2;
+    --branco:#ffffff;
+    --laranja:#EB9B00;
+    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --font-principal:"poppins";
+    --azul:#002F52;
+    --font-secundario:"josefin Sans";
+    --cinza:#474646;
+    --cinza-claro: #858585;
+    --preto: #000000;
+}
+body{
+    background-color: var(--cor-de-fundo);
+    font-size: 16px;
+    font-weight:400;
+    font-family: var(--font-principal);
+}

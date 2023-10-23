@@ -1,0 +1,61 @@
+.card__2{
+    padding: 0.5em 0.5em 0;
+    margin: 1em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: var(--branco);
+    border-radius: 10px;
+}
+.card__2-descricao{
+    margin-right: 0.5em;
+}
+
+.card__2-altora{
+    display: flex;
+    justify-content: space-between;
+
+}
+.card__2-botoes{
+    display: flex;
+    justify-content: space-between;
+}
+.card__2-items{
+    display: flex;
+}
+.card__2-titulo{
+    color: var(--laranja);
+    font-family: 700;
+}
+.card__2-nome{
+    color: var(--azul);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0.5em 0;
+}
+.card_2-texto{
+    font-size: 14px;
+}
+.img-escritora{
+    width: 161px;
+   
+}
+.card__2-item{
+    margin: 0.5em;
+    list-style: none;
+}
+.botao__anco{
+    color: var(--branco);
+    background-color: var(--laranja);
+    text-decoration: none;
+    font-weight: 700;
+    padding: 10px 34px;
+}
+.card__2-botoes{
+    padding: 1.5em 0;
+    height:48px ;
+}
+@media (min-width: 1024px) {
+    .card__2{
+        margin: 1em auto;
+        width: 50%;
+    }
+}
